@@ -1,0 +1,345 @@
+body{
+	background-image: url(../images/pz2.jpeg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	font-family: Arial Helvetica sans-serif;
+}
+@font-face{
+	font-family:"HarabaraHand";
+	src:url("../fonts/HarabaraHand.ttf") format("truetype");
+}
+
+@font-face{
+	font-family:"KaushanScript-Regular";
+	src:url("../fonts/KaushanScript-Regular.otf") format("opentype");
+}
+
+@font-face{
+	font-family:"AlexBrush-Regular";
+	src:url("../fonts/AlexBrush-Regular.ttf") format("truetype");
+}
+
+
+@font-face{
+	font-family:"Candy_Pop!-demo-font";
+	src:url("../Candy_Pop!-demo.ttf") format("truetype");
+}
+
+
+#container{
+  text-shadow: 2px 2px 8px #000 ,2px 0px 5px #070202;
+ 
+  font-weight:  bold;
+	
+
+}
+
+
+#header{
+	top: 0%;
+	left: 0px;
+	width: 100%;
+	position: fixed;
+	border-bottom: 1px solid #070202;
+	overflow: hidden;
+	 opacity: 0.8;
+	filter: alpha (opacity=100);/* For IE8 and earlier */
+	box-shadow: 2px 2px 8px #800606, 2px 4px 50px #aaa;
+	background-color:  #2B5157;
+	
+
+}
+#h2{
+	text-shadow: 2px 2px 8px #800606, 2px 0px 2px #000;
+	margin-left: 45%; 
+	line-height: center;
+	font-family:  KaushanScript-Regular;
+	color: white;
+	width: 250px;
+	height: 20px;
+
+	
+}
+b{
+   text-shadow: 2px 2px 8px #763D2B , 2px 0px 2px #000;
+   font-weight: bolder;
+}
+
+#header a{
+	color: white;
+	padding: 10px;
+	
+	
+	
+}
+#header a:hover{
+	text-shadow: 2px 2px 8px red;
+	opacity: 1.0;
+	filter: alpha (opacity=100); /* For IE8 and earlier */
+	color:white;
+	text-decoration: underline;
+	
+
+}
+ #content{
+	margin:85px 20px 100px 300px;
+ 	padding:15px;
+ 	border: 1px  #100303;
+	
+	font-size: 20px;
+	scroll-behavior: unset;
+	box-shadow: 0 4px 8px 0px white , 2px 4px 20px #aaa;
+
+	border-radius: 20px;
+	border: 1px solid white;
+	
+
+
+}
+.cont{
+	opacity: 1.0;
+	filter: alpha (opacity=100); /* For IE8 and earlier */
+	background-color:;
+}
+.cont{
+	 font-weight: ;
+  color: white;
+}
+
+#image{
+	position: fixed;
+	top: 10px;
+	left: 20px;
+	width: 150px;
+	height: 150px;
+	padding: 2px;
+	font-size: 20px;
+	border-radius: 10px
+	background: #100303;
+	border:1px  solid #100303;
+	box-shadow: 2px 2px 8px #800606, 2px 4px 50px #aaa;
+
+
+	
+		
+}
+
+#nav {
+     position: fixed;
+     text-align: center;
+     width: 40%;
+     position: fixed;
+   
+     font-size: 20px;
+     margin: 100px 50px 50px 0%;
+     
+     width: 40%;
+
+
+ 
+
+}
+#nav ul{
+	list-style: none;
+	
+}
+#nav ul li{
+	border-radius: 10px;
+    border: 1px solid white;
+	margin: 10px;
+	 box-shadow: 2px 2px 4px #000;
+	color:white;
+	
+
+
+
+}
+#nav ul li a{
+	border-radius: 10px;
+	padding: 10px;
+	display: block;
+	color: white;
+	
+	opacity: 1.0;
+	filter: alpha (opacity=100); /* For IE8 and earlier */
+
+}
+#nav ul li a:hover{
+	box-shadow: 2px 2px 20px #B3CAE3 , 2px 0px 8px red;
+	opacity: 1.0;
+	filter: alpha (opacity=100); /* For IE8 and earlier */	
+	font-weight: bold;
+	 
+	color:white;
+	border-color: #000;
+
+	
+	
+
+}
+a{
+	text-decoration: none;
+}
+
+#footer{
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	padding: 10px 0px 0px 0px;
+	border-top: 1px dashed #999;
+	 background-color: #; 
+	position:;
+	right: 0px;
+	color: white;
+	clear: both;
+	text-align: center;
+	overflow: hidden;
+	font-weight:  bolder;
+	box-shadow: 2px 2px 8px #800606, 2px 4px 10px #aaa;
+	
+	 opacity: 0.7;
+	filter: alpha (opacity=100);/* For IE8 and earlier */
+	
+	background-color:  #000;
+} 
+.table tr td {
+	
+	padding: 10px;
+
+}
+.th{
+	padding: 0px;
+}
+
+#left_nav{
+	position: fixed;
+	top: 180px;
+	left: 0.5%;
+	text-align:center;
+    font-size: 18px;
+   
+
+
+}
+#left_nav ul li{
+    list-style: none;
+   margin: 10PX;
+
+}
+
+ #left_nav ul li a{
+      border-radius: 10px;
+	padding: 10px; 
+	display: block;
+	color: white;
+	box-shadow: 2px 2px 4px #000;
+	border: 1px solid white;
+	opacity: 1.0;
+
+	filter: alpha (opacity=100);/* For IE8 and earlier */
+ } 
+  #left_nav ul li:hover{
+	box-shadow: 2px 2px 20px #B3CAE3 , 2px 0px 30px red;
+	opacity: 0.9;	
+	font-weight: bold;
+	 
+
+}
+
+.h{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: KaushanScript-Regular;
+    margin-right: 250px;
+}
+#home_main{
+	float: right;
+	
+	width: 55%;
+	
+	margin: 30px 0px 30px 70%;
+
+}
+.head{
+	width: 40%;
+	float: left;
+	font-weight: bold;
+	margin-top: 30px;
+	text-shadow: 2px 2px 8px #800606;
+	color: white;
+	font-size: 120px;
+	 font-family: Candy_Pop!-demo;
+}
+.pic{
+	width: 50%;
+	float: right;
+	text-shadow:  2px 2px 8px #800606, 2px 4px 50px #aaa;
+	margin-top:52px; 
+
+}
+
+#links ul{
+	list-style: none;
+
+}
+#links ul li{
+	display: inline;
+	padding: 10px;
+	margin-left: 40px;
+	box-shadow: 2px 2px 40px #000; 
+}
+#head_icon{
+	margin-left: 60%;
+	margin-top: -25px;
+	margin-bottom: -15px; 
+
+}
+#head_icon ul{
+	list-style: none;
+
+}
+#head_icon ul li{
+	display: inline;
+	
+	padding: 20px;
+	
+}
+#head_icon ul li a:hover{
+	box-shadow: 2px 2px 3px #800606; 
+}
+
+.p{
+	text-shadow: 2px 2px 8px #800606;
+	float: left;
+	 font-family: AlexBrush-Regular;
+	 color: white;
+}
+.headnav{
+	float: left;
+	color: white;
+}
+#header ul {
+	list-style: none;
+}
+#header ul li{
+  display: inline;
+}
+#headnav{
+  text-align: center; 
+  float: right;
+  margin-right: 10%;
+  font-family: HarabaraHand;
+
+}
+#headnav ul li{
+	padding: 10px;
+}
+#headnav ul li:hover{
+	box-shadow: 2px 2px 8px #800606, 2px 4px 50px #aaa;
+	text-shadow: 2px 0px 80px #000;
+}
+.act{
+	box-shadow: 2px 2px 8px #800606, 2px 4px 50px #aaa;
+}
